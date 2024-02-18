@@ -112,4 +112,12 @@ body {
     float: right;
   }
 
+  .resultado {
+    background-color: #ccc;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+  }
   
