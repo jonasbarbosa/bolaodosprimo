@@ -5,8 +5,8 @@ body {
   }
   
   header {
-    background-color: white;
-    color: black;
+    background: linear-gradient(to right, black 0%, black 20%, red 20%, red 40%, blue 40%, blue 60%, white 60%, white 80%, red 80%, red 100%);
+    color: white;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -34,6 +34,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    background-color: aliceblue;
   }
   
   section {
@@ -42,8 +43,19 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    background-color: white;
   }
   
+  .section-wrapper {
+    width: 50%; /* Cada seção ocupa metade da largura */
+    height: 100vh; /* Mantém a altura total da tela */
+    display: inline-block; /* Permite que fiquem lado a lado */
+}
+
+.section-right {
+    background: linear-gradient(to right, blue 50%, red 50%, white 50%);
+}
+
   .apostas ul {
     list-style: none;
     padding: 0;
